@@ -31,7 +31,8 @@
         },
         "brightness_steps": 10,
         "led_count": 69,
-        "saturation_steps": 8
+        "saturation_steps": 5,
+        "hue_steps": 2
     },
     "url": "",
     "usb": {
