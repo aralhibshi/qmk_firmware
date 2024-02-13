@@ -1,1 +1,2 @@
 BOOTLOADER = stm32-dfu
+RGB_MATRIX_ENABLE = yes

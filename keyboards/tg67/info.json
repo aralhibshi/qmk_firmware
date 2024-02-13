@@ -4,36 +4,7 @@
     "maintainer": "TG",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
-    "features": {
-        "bootmagic": true,
-        "extrakey": true,
-        "mousekey": true,
-        "rgblight": true,
-        "nkro": true
-    },
-    "matrix_pins": {
-        "cols": ["A7", "B0", "B1", "B2", "B10", "B11", "B12", "B14", "A9", "A10", "A8", "B6", "B7", "B5", "B4"],
-        "rows": ["A1", "A2", "A3", "A4", "A5"]
-    },
     "processor": "STM32F072",
-    "rgblight": {
-        "animations": {
-            "alternating": true,
-            "breathing": true,
-            "christmas": true,
-            "knight": true,
-            "rainbow_mood": true,
-            "rainbow_swirl": true,
-            "rgb_test": true,
-            "snake": true,
-            "static_gradient": true,
-            "twinkle": true
-        },
-        "brightness_steps": 10,
-        "led_count": 69,
-        "saturation_steps": 5,
-        "hue_steps": 2
-    },
     "url": "",
     "usb": {
         "device_version": "0.0.1",
@@ -45,6 +16,13 @@
         "pin": "B15"
     },
     "community_layouts": ["65_ansi_blocker"],
+    "matrix_pins": {
+        "cols": ["A7", "B0", "B1", "B2", "B10", "B11", "B12", "B14", "A9", "A10", "A8", "B6", "B7", "B5", "B4"],
+        "rows": ["A1", "A2", "A3", "A4", "A5"]
+    },
+    "rgb_matrix": {
+        "driver": "ws2812"
+    },
     "layouts": {
         "LAYOUT_65_ansi_blocker": {
             "layout": [
